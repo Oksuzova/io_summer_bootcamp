@@ -1,8 +1,14 @@
 import math
-
-A, B = map(int, input().split())
-numm = int(input())
+while True:
+    try:
+        A, B = map(int, input().split())
+        numm = int(input())
+        break
+    except ValueError:
+        print("Введіть числа")
+        continue
 chara = str(input())
+
 
 def task_8(n1, n2):
     print(n1 * 75 + n2 * 112)
@@ -22,6 +28,7 @@ def task_32(ch):
     for i in l: summ += i
     print(summ)
 
+
 def task_37(bukva):
     list1 = ["o", "u", "a", "e", "i"]
     if bukva in list1:
@@ -31,21 +38,21 @@ def task_37(bukva):
     else:
         print("Prigolosna")
 
-def FizzBuzz():
-    for i in range(1,100):
-        if i%15 == 0:
+
+def fizzbuzz():
+    for i in range(1, 100):
+        if i % 15 == 0:
             print("FizzBuzz")
-        elif i%3 == 0:
+        elif i % 3 == 0:
             print("Fizz")
-        elif i%5 == 0:
+        elif i % 5 == 0:
             print("Buzz")
         else:
             print(i)
 
-
-#task_8(A, B)
-#task_14(A, B)
-#task_18(A, B)
-#task_32(numm)
-#task_37(chara)
-#FizzBuzz()
+# task_8(A, B)
+# task_14(A, B)
+# task_18(A, B)
+# task_32(numm)
+# task_37(chara)
+# FizzBuzz()
