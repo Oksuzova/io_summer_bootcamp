@@ -1,5 +1,4 @@
 import math
-
 while True:
     try:
         A, B = map(int, input().split())
@@ -51,7 +50,6 @@ def fizzbuzz():
         else:
             print(i)
 
-
 # task_8(A, B)
 # task_14(A, B)
 # task_18(A, B)
@@ -60,7 +58,3 @@ def fizzbuzz():
 # FizzBuzz()
 
 # hello
-# new changes
-
-def test():
-    print("test1234567")
