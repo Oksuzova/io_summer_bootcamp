@@ -1,6 +1,5 @@
 print("test")
-<
-<<<<<< Nykita
+
 # new comment
 # another comment
 
