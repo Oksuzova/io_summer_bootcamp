@@ -63,4 +63,4 @@ def fizzbuzz():
 # new changessss
 
 def test():
-    pass
+    print("test")
