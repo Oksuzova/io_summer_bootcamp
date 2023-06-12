@@ -60,7 +60,7 @@ def fizzbuzz():
 # FizzBuzz()
 
 # hello
-# new changessss
+# new changes
 
 def test():
     print("test")
